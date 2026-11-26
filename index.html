@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Novara Living – Where Vision Becomes Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><b>NOVARA <span>LIVING</span></b>
+<ul><li><a href="#home">Home</a></li><li><a href="#plan">Floor Plan</a></li><li><a href="#rooms">Rooms</a></li><li><a href="#features">Features</a></li><li><a href="#calculator">Calculator</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul>
+<a class="btn" href="#contact" style="padding:10px 22px">Book a Visit</a></nav>
+
+<section class="hero" id="home"><div class="rv">
+<p class="eyebrow">Single-storey luxury homes · Min Buri, Bangkok</p>
+<h1>Novara<br><em>Living</em></h1>
+<p class="tag">“WHERE VISION BECOMES HOME”</p>
+<a class="btn" href="#plan">Explore the Home</a><a class="btn ghost" href="#calculator">Estimate Payments</a>
+</div></section>
+
+<section class="stats rv"><div><b>146.3</b><span>sq.m usable area</span></div><div><b>3</b><span>bedrooms</span></div><div><b>20×10</b><span>metre land plot</span></div><div><b>2</b><span>car carport</span></div></section>
+
+<section id="plan"><p class="eyebrow">The 3D Floor Plan</p><h2 class="rv">Walk around your future home</h2>
+<p class="lead rv">Drag to rotate, scroll or pinch to zoom, and click any room to lift the roof and step inside. A schematic 3D model built from our 146.3 sq.m single-storey room schedule.</p>
+<div class="plan-wrap rv"><div class="v3" id="v3" data-plan="images/image-2.jpg"><div class="v3c"></div>
+<div class="v3t"><button data-a="roof">Roof</button><button data-a="cut">Cutaway</button><button data-a="top">Top view</button><button data-a="rot">Auto-rotate</button><button data-a="reset">Reset</button></div>
+<div class="v3i"></div></div>
+<div><div class="sched"><h3 style="font-size:1.8rem;margin-bottom:10px">Room schedule</h3><p class="lead" style="margin:0 0 8px;font-size:.78rem">Tap a room to view it in 3D</p><ul id="rlist" style="padding:0"></ul>
+<ul style="padding:0"><li class="tot">Total usable area<b>146.3 sq.m</b></li></ul></div>
+<p style="margin-top:18px"><button class="btn ghost" style="margin:0 10px 10px 0" data-src="images/image-2.jpg" onclick="lb(this.dataset.src)">Original 2D plan</button><button class="btn ghost" style="margin:0" data-src="images/image-3.jpg" onclick="lb(this.dataset.src)">Front elevation</button></p></div></div></section>
+
+<section id="rooms"><p class="eyebrow">What’s Inside</p><h2 class="rv">Rooms made for living</h2>
+<div class="grid">
+<div class="room rv" style="background-image:url(images/image-5.jpg)"><div><h3>Living room</h3><span>7.0 × 4.0 m</span></div></div>
+<div class="room rv" style="background-image:url(images/image-6.jpg)"><div><h3>Dining area</h3><span>4.0 × 5.0 m</span></div></div>
+<div class="room rv" style="background-image:url(images/image-7.jpg)"><div><h3>Kitchen</h3><span>4.0 × 3.5 m</span></div></div>
+<div class="room rv" style="background-image:url(images/image-1.jpg)"><div><h3>Bathrooms</h3><span>2 · luxury finishes</span></div></div>
+<div class="room rv" style="background-image:url(images/image-8.jpg)"><div><h3>Bedrooms</h3><span>3 · up to 4.0 × 3.5 m</span></div></div>
+<div class="room rv" style="background-image:url(images/image-9.jpg)"><div><h3>Home office</h3><span>3.5 × 3.0 m</span></div></div>
+</div>
+<p class="lead" style="margin-top:22px;font-size:.8rem">Interior photos are illustrative of the Novara style.</p></section>
+
+<section id="features"><p class="eyebrow">Features</p><h2 class="rv">Safe. Sustainable. Smart.</h2>
+<div class="tabs"><button class="on" data-t="p1">Fire &amp; electrical safety</button><button data-t="p2">Security</button><button data-t="p3">Sustainability</button><button data-t="p4">Location</button></div>
+<div class="panel on" id="p1"><div class="chips"><div class="chip"><i>🔥</i>Smoke detectors</div><div class="chip"><i>🚨</i>Fire alarms</div><div class="chip"><i>🧯</i>Fire extinguishers</div><div class="chip"><i>🚪</i>Emergency exits</div><div class="chip"><i>⚡</i>Circuit breakers &amp; proper wiring</div><div class="chip"><i>🔌</i>Ground-fault circuit &amp; covered outlets</div></div></div>
+<div class="panel" id="p2"><div class="chips"><div class="chip"><i>📹</i>CCTV cameras</div><div class="chip"><i>🔐</i>Smart door locks</div><div class="chip"><i>💡</i>Motion-sensor lights</div><div class="chip"><i>🛡️</i>Security systems</div></div></div>
+<div class="panel" id="p3"><div class="chips"><div class="chip"><i>☀️</i>Solar panels generate clean electricity</div><div class="chip"><i>🏠</i>High-performance insulation keeps heat out</div><div class="chip"><i>💧</i>Low-flow fixtures &amp; dual-flush toilets</div><div class="chip"><i>🌿</i>Low-VOC paints for cleaner indoor air</div><div class="chip"><i>🌬️</i>Layout planned around monsoon winds and sun path</div></div></div>
+<div class="panel" id="p4"><div class="chips"><div class="chip"><i>📍</i>Minburi, in Bangkok’s eastern “Green Zone”</div><div class="chip"><i>🚇</i>MRT Pink Line: Minburi &amp; Talad Minburi stations</div><div class="chip"><i>🏫</i>Minburi School, Setthabutr Bamphen School, Kasembandit University</div><div class="chip"><i>🏥</i>Nawamin 9 Hospital &amp; Sinphaet Serirak Hospital</div><div class="chip"><i>🛒</i>Minburi Market</div><div class="chip"><i>🛣️</i>Ramkhamhaeng, Seri Thai &amp; Rom Klao roads</div></div></div>
+</section>
+
+<section id="calculator"><p class="eyebrow">Interest Calculator</p><h2 class="rv">Plan your monthly payment</h2>
+<p class="lead">Enter a price and loan terms to estimate your monthly installment. Figures are estimates only; speak to our team for official offers.</p>
+<div class="calc rv"><div>
+<label>House price (THB)</label><input type="number" id="price" value="5000000" min="0">
+<label>Down payment: <span id="dpv">20</span>%</label><input type="range" id="dp" min="0" max="80" value="20">
+<label>Interest rate: <span id="rtv">4.5</span>% per year</label><input type="range" id="rt" min="1" max="12" step=".1" value="4.5">
+<label>Loan term: <span id="trv">30</span> years</label><input type="range" id="tr" min="5" max="40" value="30"></div>
+<div class="res"><small>Estimated monthly payment</small><div class="big" id="mo">–</div>
+<div class="bar"><i id="b1"></i><i id="b2"></i></div><small id="sum"></small></div></div></section>
+
+<section id="about"><div class="about"><div><p class="eyebrow">About Us</p><h2 class="rv">We engineer timeless, green sanctuaries</h2>
+<p class="lead">Novara Living designs high-end, eco-friendly homes that blend pure luxury with sustainable living. From smart technology to energy-efficient architecture, we handle everything with precision, because families shouldn’t have to settle for cut corners.</p>
+<div class="team"><span><b>CEO</b> Sirikarn Rungtaweelap</span><span><b>Finance</b> Punyata Sonthisunee</span><span><b>Architect</b> Yeonah Park</span><span><b>Marketing</b> Thanawin Sukmuang</span><span><b>Sales</b> Yuki Maeda</span><span><b>Sales</b> Nattapol Rittikornkool</span></div></div>
+<img class="rv" src="images/image-10.jpg" alt="Family enjoying time together at home"></div>
+<div class="pillars"><div class="rv"><h3>Our mission</h3><p>Safe, high-quality homes built with exceptional craftsmanship, modern spaces with premium materials, and eco-friendly living without compromising on comfort.</p></div>
+<div class="rv"><h3>Our vision</h3><p>Communities where every family enjoys a safe, comfortable and beautiful home that supports togetherness, relaxation and the simple joys of daily life.</p></div>
+<div class="rv"><h3>Who we serve</h3><p>Luxury buyers and middle-sized families who want sustainability, security and a lifestyle that feels as good as it looks.</p></div></div></section>
+
+<section id="contact"><div class="contact"><div class="info"><p class="eyebrow">Contact</p><h2>Let’s find your home</h2>
+<p><b>Phone</b>+66 2213 0117</p><p><b>Email</b>novaraliving@ecohome.com</p><p><b>Address</b>10510 Min Buri Rd.</p><p><b>Web</b>www.novaraliving.com</p></div>
+<form onsubmit="event.preventDefault();var f=this;location.href='mailto:novaraliving@ecohome.com?subject='+encodeURIComponent('Enquiry from '+f.n.value)+'&body='+encodeURIComponent(f.m.value+'\n\n'+f.p.value)">
+<input name="n" placeholder="Your name" required><input name="p" placeholder="Phone or email" required><textarea name="m" rows="5" placeholder="Tell us what you’re looking for"></textarea><button class="btn">Send Enquiry</button></form></div></section>
+
+<footer><em>Novara Living</em>“WHERE VISION BECOMES HOME” · © 2026</footer>
+<button class="btn mapbtn" onclick="mm(1)">📍 Important Locations</button>
+<div class="mm" id="mm" onclick="if(event.target===this)mm(0)"><div class="mmc"><div class="mml" id="mml"><h3>Important locations</h3></div>
+<div class="mmr"><svg id="msv" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid slice"><defs><pattern id="gr" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#8c7a5b" stroke-opacity=".13"/></pattern></defs><g id="mg"><rect x="-800" y="-600" width="2600" height="1840" fill="#33271a"/><rect x="-800" y="-600" width="2600" height="1840" fill="url(#gr)"/><ellipse cx="500" cy="340" rx="430" ry="250" fill="#4a5a35" opacity=".3"/><g id="mroads"></g><g id="mmk"></g></g></svg>
+<div class="mmz"><button onclick="mz(1.4)" aria-label="Zoom in">+</button><button onclick="mz(1/1.4)" aria-label="Zoom out">−</button><button onclick="mfly(null)" aria-label="Reset">⌂</button></div><button class="mmx" onclick="mm(0)" aria-label="Close">✕</button>
+<div class="mmp" id="mmp"><div><b id="mpn"></b><small id="mpt"></small></div><a class="btn" id="mpl" target="_blank" rel="noopener" style="padding:10px 20px">Open in Google Maps</a></div>
+<div class="mmn">Schematic map, not to scale · drag, scroll or pinch</div></div></div></div>
+<div class="lb" id="lb" onclick="this.classList.remove('on')"><img id="lbi" alt=""></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="script.js"></script>
+<script src="model.js"></script>
+</body></html>
